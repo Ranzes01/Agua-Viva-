@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi App Musical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎵 Mi App Musical</h1>
+  </header>
+  <main>
+    <input type="text" id="youtubeUrl" placeholder="Pega el enlace de YouTube">
+    <button onclick="playVideo()">Reproducir</button>
+    <button onclick="download('mp3')">Descargar MP3</button>
+    <button onclick="download('mp4')">Descargar MP4</button>
+    <div id="player"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
